@@ -1,1 +1,16 @@
-# .github
+# What's fapi?
+
+Many times I've needed a SQL plus NOSQL/Search microservice backend and have spun up several now, including Django+Postgres+Solar, Flask+Algolia, and other combinations. The one I plan to use next is FastAPI + Elasticsearch (or the Amazonian Opensearch alternative.)
+
+Instead of waiting and building yet another one-off codebase under time pressure, I'm standardizing this micro-stack ahead of time. With time to go deep with the architecture, I can bolt in best practices that often get left on the cutting room floor, such as 
+
+- Fully normalized formatting and linting
+- Full use of Python async on the frontside (APIs) and the backside (search and RDBMS requests)
+- A code layout that standardizes versioned APIs, CLI commands, background tasks, and built-in OpenAPI/Swagger support
+- A standard test methodology that includes mock driven unit tests and full stack data tests
+- Well built Docker support, including a tight production image and docker compose support for fully functional instant infrastructure
+- Scripts for 1 liner builds, lints, and test runs
+
+## What would I use this for?
+
+Launching your next awesome scalable search service.
