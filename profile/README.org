@@ -1,4 +1,4 @@
-# What's fapi?
+* What's fapi?
 
 Many times I've needed a SQL plus NOSQL/Search microservice backend and have spun up several now, including Django+Postgres+Solar, Flask+Algolia, and other combinations. The one I plan to use next is FastAPI + Elasticsearch (or the Amazonian Opensearch alternative.)
 
@@ -11,6 +11,6 @@ Instead of waiting and building yet another one-off codebase under time pressure
 - Well built Docker support, including a tight production image and docker compose support for fully functional instant infrastructure
 - Scripts for 1 liner builds, lints, and test runs
 
-## What would I use this for?
+** What would I use this for?
 
-Launching your next awesome scalable search service.
+Launching your next awesome scalable search service or fast lookup microservice.
